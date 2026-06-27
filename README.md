@@ -22,6 +22,7 @@ Next, run the script in SIRIL's script dropdown menu. This will open the GUI (pi
 
 
 ![photo of GUI](https://github.com/TimBomBom/SIRIL-Intensity-Profile-Sweeper/blob/main/images/Pasted%20image%2020260627161359.png)
+
 *This is the script window that appears upon running with the default settings.*
 
 ## Specifying Coordinates
@@ -30,8 +31,9 @@ Both vectors have a starting coordinate `(x1, y1)` and an end coordinate `(x2, y
 
 To use `Use Selection`, draw a selection in the image window in SIRIL and click the `Use Selection` button for the desired vector. The script will use the corners from the beginning and end of your selection and extract the coordinates to specify the start and end automatically. This is much quicker and easier than manually typing 4 coordinates.
 
-![Photo of selection in SIRIL](https://github.com/TimBomBom/SIRIL-Intensity-Profile-Sweeper/blob/main/images/Pasted%20image%2020260627161358.png)
-![Illustration of how the script uses the selection to determine start and end coords](https://github.com/TimBomBom/SIRIL-Intensity-Profile-Sweeper/blob/main/images/Pasted%20image%2020260627161357.png)
+![Photo of selection in SIRIL](https://github.com/TimBomBom/SIRIL-Intensity-Profile-Sweeper/blob/main/images/Pasted%20image%2020260627151138.png)
+![Illustration of how the script uses the selection to determine start and end coords](https://github.com/TimBomBom/SIRIL-Intensity-Profile-Sweeper/blob/main/images/Pasted%20image%2020260627151537.png)
+
 *After making a selection (top) the program will use the corners as the coordinates for either the start or end vector (bottom)*
 
 Making new selections will overwrite the current values, however if you wish, you may also reset the coordinates to all zeroes by clicking the `Reset` button. This will only affect the vector you click it for.
