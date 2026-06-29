@@ -51,6 +51,6 @@ Making new selections will overwrite the current values, however if you wish, yo
 
 ## Next Steps/Todo
 
-I hope to add a feature to generate the maximum number of profiles between two vectors instead of specifying a number of steps. What I mean is the user can generate like 10 profiles along two vectors that are only 5px separated. This leads to a bunch of duplicate profiles generated along identical coordinates. To fix this, I might implement a feature to see how many lines could be interpolated and then generate that many profiles. It shouldn't be too hard to implement, but it might take a while as I work up to getting around to it.
+1. I hope to add a feature to generate the maximum number of profiles between two vectors instead of specifying a number of steps. What I mean is the user can generate like 10 profiles along two vectors that are only 5px separated. This leads to a bunch of duplicate profiles generated along identical coordinates. To fix this, I might implement a feature to see how many lines could be interpolated and then generate that many profiles. It shouldn't be too hard to implement, but it might take a while as I work up to getting around to it.
 
-
+2. This plugin uses tkinter for the GUI which is deprecated for current SIRIL plugins. The template/wiki was out of date when I made this apparently. The aim is to eventually refactor this to work on PyQt6 which is the current standard. It still works just fine, but I'll probably release a new version on the updated framework to hopefully get it into the main GitLab repo for python plugins so you don't need to manually download it. 
